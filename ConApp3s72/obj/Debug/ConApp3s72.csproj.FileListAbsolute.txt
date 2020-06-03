@@ -1,0 +1,7 @@
+C:\Users\monk_\source\repos\Tech-Academy-Basic-C-Sharp\ConApp3s72\bin\Debug\ConApp3s72.exe.config
+C:\Users\monk_\source\repos\Tech-Academy-Basic-C-Sharp\ConApp3s72\bin\Debug\ConApp3s72.exe
+C:\Users\monk_\source\repos\Tech-Academy-Basic-C-Sharp\ConApp3s72\bin\Debug\ConApp3s72.pdb
+C:\Users\monk_\source\repos\Tech-Academy-Basic-C-Sharp\ConApp3s72\obj\Debug\ConApp3s72.csprojAssemblyReference.cache
+C:\Users\monk_\source\repos\Tech-Academy-Basic-C-Sharp\ConApp3s72\obj\Debug\ConApp3s72.csproj.CoreCompileInputs.cache
+C:\Users\monk_\source\repos\Tech-Academy-Basic-C-Sharp\ConApp3s72\obj\Debug\ConApp3s72.exe
+C:\Users\monk_\source\repos\Tech-Academy-Basic-C-Sharp\ConApp3s72\obj\Debug\ConApp3s72.pdb

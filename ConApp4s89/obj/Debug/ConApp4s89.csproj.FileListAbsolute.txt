@@ -1,0 +1,7 @@
+C:\Users\monk_\source\repos\Tech-Academy-Basic-C-Sharp\ConApp4s89\bin\Debug\ConApp4s89.exe.config
+C:\Users\monk_\source\repos\Tech-Academy-Basic-C-Sharp\ConApp4s89\bin\Debug\ConApp4s89.exe
+C:\Users\monk_\source\repos\Tech-Academy-Basic-C-Sharp\ConApp4s89\bin\Debug\ConApp4s89.pdb
+C:\Users\monk_\source\repos\Tech-Academy-Basic-C-Sharp\ConApp4s89\obj\Debug\ConApp4s89.csprojAssemblyReference.cache
+C:\Users\monk_\source\repos\Tech-Academy-Basic-C-Sharp\ConApp4s89\obj\Debug\ConApp4s89.csproj.CoreCompileInputs.cache
+C:\Users\monk_\source\repos\Tech-Academy-Basic-C-Sharp\ConApp4s89\obj\Debug\ConApp4s89.exe
+C:\Users\monk_\source\repos\Tech-Academy-Basic-C-Sharp\ConApp4s89\obj\Debug\ConApp4s89.pdb
