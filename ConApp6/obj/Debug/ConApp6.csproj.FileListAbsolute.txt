@@ -1,0 +1,7 @@
+C:\Users\monk_\source\repos\Tech-Academy-Basic-C-Sharp\ConApp6\bin\Debug\ConApp6.exe.config
+C:\Users\monk_\source\repos\Tech-Academy-Basic-C-Sharp\ConApp6\bin\Debug\ConApp6.exe
+C:\Users\monk_\source\repos\Tech-Academy-Basic-C-Sharp\ConApp6\bin\Debug\ConApp6.pdb
+C:\Users\monk_\source\repos\Tech-Academy-Basic-C-Sharp\ConApp6\obj\Debug\ConApp6.csprojAssemblyReference.cache
+C:\Users\monk_\source\repos\Tech-Academy-Basic-C-Sharp\ConApp6\obj\Debug\ConApp6.csproj.CoreCompileInputs.cache
+C:\Users\monk_\source\repos\Tech-Academy-Basic-C-Sharp\ConApp6\obj\Debug\ConApp6.exe
+C:\Users\monk_\source\repos\Tech-Academy-Basic-C-Sharp\ConApp6\obj\Debug\ConApp6.pdb
