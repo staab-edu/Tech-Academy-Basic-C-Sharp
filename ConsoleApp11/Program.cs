@@ -27,7 +27,7 @@ namespace ConsoleApp11
 
             // Part 2
             int l;
-            for(l=1; l>0; l++)
+            for(l=1; l < 10; l++)
             {
                 Console.WriteLine("Line # " + l.ToString());
             }
