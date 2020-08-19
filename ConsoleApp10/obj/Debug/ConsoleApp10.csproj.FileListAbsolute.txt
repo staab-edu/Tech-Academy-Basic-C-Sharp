@@ -1,0 +1,7 @@
+C:\Users\monk_\source\repos\Tech-Academy-Basic-C-Sharp\ConsoleApp10\bin\Debug\ConsoleApp10.exe.config
+C:\Users\monk_\source\repos\Tech-Academy-Basic-C-Sharp\ConsoleApp10\bin\Debug\ConsoleApp10.exe
+C:\Users\monk_\source\repos\Tech-Academy-Basic-C-Sharp\ConsoleApp10\bin\Debug\ConsoleApp10.pdb
+C:\Users\monk_\source\repos\Tech-Academy-Basic-C-Sharp\ConsoleApp10\obj\Debug\ConsoleApp10.csprojAssemblyReference.cache
+C:\Users\monk_\source\repos\Tech-Academy-Basic-C-Sharp\ConsoleApp10\obj\Debug\ConsoleApp10.csproj.CoreCompileInputs.cache
+C:\Users\monk_\source\repos\Tech-Academy-Basic-C-Sharp\ConsoleApp10\obj\Debug\ConsoleApp10.exe
+C:\Users\monk_\source\repos\Tech-Academy-Basic-C-Sharp\ConsoleApp10\obj\Debug\ConsoleApp10.pdb
