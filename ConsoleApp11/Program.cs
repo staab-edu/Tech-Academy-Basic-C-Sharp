@@ -11,7 +11,7 @@ namespace ConsoleApp11
     {
         static void Main(string[] args)
         {
-            // Part 1
+            // Part 1 concat string to array
             //string[] things = { "Blue", "Berry", "Fruit", "Juice" };
             //int l;
             //Console.WriteLine("Enter some text");
@@ -25,11 +25,12 @@ namespace ConsoleApp11
             //    Console.WriteLine(things[l]);
             //}
 
-            // Part 2
-            // Part 3
-            // Part 4
+            // Part 2 Loop problem
+            // Part 3 Loop fixed
+            // Part 4 Loop <
+            // Part 5 loop <=
             int l;
-            for(l=1; l < 10; l++)
+            for(l=1; l <= 10; l++)
             {
                 Console.WriteLine("Line # " + (l*10).ToString());
             }
