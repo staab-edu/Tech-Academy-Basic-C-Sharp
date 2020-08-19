@@ -26,10 +26,12 @@ namespace ConsoleApp11
             //}
 
             // Part 2
+            // Part 3
+            // Part 4
             int l;
             for(l=1; l < 10; l++)
             {
-                Console.WriteLine("Line # " + l.ToString());
+                Console.WriteLine("Line # " + (l*10).ToString());
             }
 
 
