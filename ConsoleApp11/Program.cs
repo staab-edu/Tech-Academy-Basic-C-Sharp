@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Services;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -29,12 +30,28 @@ namespace ConsoleApp11
             // Part 3 Loop fixed
             // Part 4 Loop <
             // Part 5 loop <=
-            int l;
-            for(l=1; l <= 10; l++)
-            {
-                Console.WriteLine("Line # " + (l*10).ToString());
-            }
+            //int l;
+            //for(l=1; l <= 10; l++)
+            //{
+            //    Console.WriteLine("Line # " + (l*10).ToString());
+            //}
 
+            // Part 6 list search
+            List<string> color = new List<string>();
+            color.Add("Red");
+            color.Add("Blue");
+            color.Add("Yellow");
+            color.Add("Orange");
+            color.Add("Green");
+            color.Add("Purple");
+            string str;
+
+            Console.WriteLine("Enter a color");
+            str= Console.ReadLine();
+            int i;
+            for (i = 0; i < color.Count; i++)
+                if (color[i].ToLower() == str.ToLower())
+                    Console.WriteLine(str + " found at " + i);
 
             Console.ReadLine();
         }
