@@ -39,11 +39,14 @@ namespace ConsoleApp11
             // Part 6 list search
             // Part 7 add not found
             // Part 8 add break
+            // Part 9 Duplicate items/multiple matches
             List<string> color = new List<string>();
             color.Add("Red");
             color.Add("Blue");
             color.Add("Yellow");
             color.Add("Orange");
+            color.Add("Green");
+            color.Add("Purple");
             color.Add("Green");
             color.Add("Purple");
             string str;
@@ -57,7 +60,6 @@ namespace ConsoleApp11
                 {
                     Console.WriteLine(str + " found at " + i);
                     found=true;
-                    break;
                 }
             if(!found)
                 Console.WriteLine(str + " not in list");
