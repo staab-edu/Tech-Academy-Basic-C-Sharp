@@ -37,6 +37,7 @@ namespace ConsoleApp11
             //}
 
             // Part 6 list search
+            // Part 7 add not found
             List<string> color = new List<string>();
             color.Add("Red");
             color.Add("Blue");
@@ -49,9 +50,17 @@ namespace ConsoleApp11
             Console.WriteLine("Enter a color");
             str= Console.ReadLine();
             int i;
+            bool found=false;
             for (i = 0; i < color.Count; i++)
-                if (color[i].ToLower() == str.ToLower())
+                if (color[i].ToLower() == str.ToLower()) 
+                {
                     Console.WriteLine(str + " found at " + i);
+                    found=true;
+                }
+            if(!found)
+                Console.WriteLine(str + " not in list");
+                
+
 
             Console.ReadLine();
         }
