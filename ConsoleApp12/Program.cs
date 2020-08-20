@@ -14,11 +14,35 @@ namespace ConsoleApp12
             var numbers = new List<int> { 10, 15, 26, 33, 50, 73, 80 };
 
             Console.WriteLine("Ender number to devide by");
-            int div = Convert.ToInt32(Console.ReadLine());
+            string input = (Console.ReadLine());
+            int divisor;
+            int result;
             foreach (int number in numbers)
             {
-                Console.WriteLine(number + " divided by " + div + " = " + number / div);
+                divisor = 0;
+                result = 0;
+                try
+                {
+
+                    divisor = Convert.ToInt32(input);
+                    result = number / divisor;
+                } catch (DivideByZeroException e)
+                {
+                    Console.WriteLine("Exception caugt : {0}", e.Message);
+                } catch (FormatException e)
+                {
+                    Console.WriteLine("Exception caugt : {0}", e.Message);
+                } finally
+                {
+                    if (divisor != 0 && result != 0)
+                    {
+                        Console.WriteLine(number + " divided by " + divisor + " = " + result);
+                    }
+                }
+                
+
             }
+            Console.WriteLine("\nCompleted loop");
             Console.ReadLine();
         }
     }
