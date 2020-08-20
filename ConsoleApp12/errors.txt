@@ -1,0 +1,22 @@
+enter 0
+System.DivideByZeroException
+  HResult=0x80020012
+  Message=Attempted to divide by zero.
+  Source=ConsoleApp12
+  StackTrace:
+   at ConsoleApp12.Program.Main(String[] args) in C:\Users\monk_\source\repos\ConsoleApp12\Program.cs:line 20
+
+enter string
+System.FormatException
+  HResult=0x80131537
+  Message=Input string was not in a correct format.
+  Source=mscorlib
+  StackTrace:
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at ConsoleApp12.Program.Main(String[] args) in C:\Users\monk_\source\repos\ConsoleApp12\Program.cs:line 17
+
+  This exception was originally thrown at this call stack:
+    [External Code]
+    ConsoleApp12.Program.Main(string[]) in Program.cs
