@@ -61,8 +61,8 @@ namespace ConsoleApp11
                     Console.WriteLine(str + " found at " + i);
                     found=true;
                 }
-            if(!found)
-                Console.WriteLine(str + " not in list");
+            //if(!found)
+            //    Console.WriteLine(str + " not in list");
                 
             Console.ReadLine();
         }
