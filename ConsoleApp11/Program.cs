@@ -41,29 +41,43 @@ namespace ConsoleApp11
             // Part 8 add break
             // Part 9 Duplicate items/multiple matches
             // Part 10 add not in list
-            List<string> color = new List<string>();
-            color.Add("Red");
-            color.Add("Blue");
-            color.Add("Yellow");
-            color.Add("Orange");
-            color.Add("Green");
-            color.Add("Purple");
-            color.Add("Green");
-            color.Add("Purple");
-            string str;
+            List<string> colors = new List<string>();
+            colors.Add("Red");
+            colors.Add("Blue");
+            colors.Add("Yellow");
+            colors.Add("Green");
+            colors.Add("Purple");
+            colors.Add("Green");
+            colors.Add("Orange");
+            colors.Add("Purple");
+            List<string> tmpclr = new List<string>();
+            //string str;
 
-            Console.WriteLine("Enter a color");
-            str= Console.ReadLine();
-            int i;
-            bool found=false;
-            for (i = 0; i < color.Count; i++)
-                if (color[i].ToLower() == str.ToLower()) 
+            //Console.WriteLine("Enter a color");
+            //str= Console.ReadLine();
+            foreach (string color in colors) 
+            {
+                if(tmpclr.IndexOf(color) > 0)
                 {
-                    Console.WriteLine(str + " found at " + i);
-                    found=true;
+                    Console.WriteLine(color + " seen before.");
                 }
-            if (!found)
-                Console.WriteLine(str + " not in list");
+                else
+                {
+                    Console.WriteLine(color + " not seen before");
+                    tmpclr.Add(color);
+                }
+            }
+
+            //int i;
+            //bool found=false;
+            //for (i = 0; i < color.Count; i++)
+            //    if (color[i].ToLower() == str.ToLower()) 
+            //    {
+            //        Console.WriteLine(str + " found at " + i);
+            //        found=true;
+            //    }
+            //if (!found)
+            //    Console.WriteLine(str + " not in list");
 
             Console.ReadLine();
         }
